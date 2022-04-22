@@ -4,10 +4,11 @@ import App1 from './components/App1';
 import App2 from './components/App2';
 
 function App() {
+  let food = ['pizza', 'tacos', 'sushi', 'burgers'];
   return (
     <div className='App'>
-      <h1>Hello</h1>
       <App1 />
+      <App2 list={food} />
     </div>
   );
 }

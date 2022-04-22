@@ -1,10 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-function App2() {
-  const [food, setFood] = useState('')
-
+function App2(props) {
+  let list = props.list
   return (
-    <div>App2</div>
+    <div>
+      <h1>App2</h1>
+      {list.map((item) =>{
+        return <p>{item}</p>
+      })}
+    </div>
   )
 }
 

@@ -10,6 +10,7 @@ function App1() {
   
   return (
     <div>
+      <h1>App1</h1>
       <input type='text' onChange={handleChange} />
       <p>{input}</p>
     </div>
