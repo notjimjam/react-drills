@@ -1,5 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
+  /* margin: 30px; */
+}
+
+.comps{
+  padding:20px
 }
 
 .App-logo {
