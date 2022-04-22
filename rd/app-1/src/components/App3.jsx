@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 function App3(props) {
-    let list = ['pizza', 'tacos', 'sushi', 'burgers', 'burritos']
+    let list = props.list
     const [filterArr, setFilterArr] = useState(list)
 
     function handleInput(event){
