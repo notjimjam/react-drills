@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Todo6 from './Todo6'
+import Todo6 from './sideComps/Todo6'
 
 function App6() {
     const [input, setInput] = useState('')
